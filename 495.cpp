@@ -81,7 +81,7 @@ int main()
 	for (int i = 2; i < 5001; i++)
 	{
 		add(B[i], B[i - 1], B[i - 2]);
-		//cout << B[i] << endl;
+		//B[i]=B[i-1]+B[i-2];
 	}
 	int a;
 	while (1)
