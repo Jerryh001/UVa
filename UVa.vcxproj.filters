@@ -15,11 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="623.cpp">
+    <ClCompile Include="10023.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

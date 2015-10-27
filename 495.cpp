@@ -48,7 +48,7 @@ public:
 			*ia %= 10000;
 		}
 	}
-	friend ostream& operator<<(ostream& out, Bignum b)
+	friend ostream& operator<<(ostream& out,const Bignum& b)
 	{
 		out << b.num.back();
 		for (list<int>::const_reverse_iterator i = ++b.num.rbegin(); i != b.num.rend(); i++)
